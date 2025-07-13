@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f4f8;
+  color: #091319;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

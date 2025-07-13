@@ -1,0 +1,51 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #d5dc78;
+  color: #F1F6F9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #060606;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  justify-items: center;
+}
+
+.feature-card {
+  background-color: #f3f4f7;
+  color: #0b0c0c;
+  width: 180px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 150px;
+  transition: transform 0.2s ease-in-out, background 0.3s;
+}
+
+.feature-card:hover {
+  background-color: #111112;
+  color: #d5dc78;
+  transform: translateY(-5px);
+}
+
+.feature-card span {
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.geo-page {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#geo-map {
+  height: 100%;
+  width: 100%;
+}
+
+.legend {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #aaa;
+  z-index: 1000;
+  font-family: sans-serif;
+}
+
+.legend label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.legend select {
+  padding: 5px;
+  border-radius: 5px;
+}

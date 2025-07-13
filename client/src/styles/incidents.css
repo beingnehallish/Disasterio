@@ -1,0 +1,107 @@
+.incidents-container {
+  padding: 2rem;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #102a43;
+  margin-bottom: 1.5rem;
+}
+
+.loading-animation,
+.error-message,
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.incident-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.incident-card {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #f9fafc, #0284c7);
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(27, 24, 24, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.incident-card:hover {
+  transform: scale(1.02);
+}
+
+.incident-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.incident-content p {
+  margin: 0.3rem 0;
+  color: #e0f2fe;
+}
+.map-section {
+  margin-top: 2rem;
+}
+
+.leaflet-container {
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(250, 248, 248, 0.2);
+}
+.incidents-page {
+  padding: 20px;
+  color: #f0f0f0;
+  background-color: #f6f8f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d0e0f;
+}
+
+#map {
+  height: 400px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.incident-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.incident-card {
+  background: #2c4eaa;
+  padding: 16px;
+  border-left: 5px solid #454748;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.incident-card:hover {
+  background: #1b2051;
+  transform: scale(1.01);
+}
+
+.loading {
+  text-align: center;
+  color: #ffcc00;
+  font-size: 18px;
+}

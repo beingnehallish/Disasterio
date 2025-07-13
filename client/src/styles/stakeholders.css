@@ -1,0 +1,81 @@
+.stakeholders-container {
+  padding: 2rem;
+  background-color: #acaae4;
+  color: rgb(13, 12, 12);
+  min-height: 100vh;
+}
+
+.filter-container {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #040403;
+  color: rgb(254, 251, 251);
+  border: black;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.stakeholder-card {
+  background-color: #f4fef4;
+  padding: 1rem 1.5rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: transform 0.2s;
+}
+
+.stakeholder-card:hover {
+  transform: scale(1.03);
+}
+
+.stakeholder-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #3c8fbb;
+}
+
+.stakeholder-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.description {
+  margin-top: 0.8rem;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #928e8e;
+}
+
+.no-data {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+.back-button {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  background-color: #5775b2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.back-button:hover {
+  background-color: #020d15;
+}

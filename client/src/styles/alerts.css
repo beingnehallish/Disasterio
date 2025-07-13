@@ -1,0 +1,57 @@
+/* src/styles/alerts.css */
+.alerts-container {
+  padding: 2rem;
+  background-color: #f8f9f4;
+  color: #060606;
+  min-height: 100vh;
+}
+
+.alerts-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.alerts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.alert-card {
+  background-color: #75a4d7;
+  border-left: 10px solid #ccc;
+  padding: 1.5rem;
+  width: 300px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.alert-card:hover {
+  transform: scale(1.03);
+}
+
+.alert-card a {
+  color: #3d92d7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.alert-card.low {
+  border-color: #4caf50;
+}
+
+.alert-card.medium {
+  border-color: #ff9800;
+}
+
+.alert-card.high {
+  border-color: #f44336;
+}
+.filter-sort-controls {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
